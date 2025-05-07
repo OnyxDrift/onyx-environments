@@ -15,7 +15,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 brew install warp
 
 ### Install Powerlevel10k Theme
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k\necho 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 ### Configure Powerlevel10k Theme
 p10k configure
@@ -27,10 +29,14 @@ p10k configure
 
 ### Configure Warp
 Settings > Appearance > Click 'Prompt' configuration box > Select 'Shell prompt' (PS1)
+
 ** This will configure Warp to use our PS1-applied theme & not Warp's own "injected" theme
 
 ### Sources
 https://www.youtube.com/watch?v=WXiNkZVmkD4&ab_channel=Warp
+
+### Additional Theming Sources
+https://starship.rs/presets/
 
 ## CLI Utility Modification
 
@@ -41,4 +47,5 @@ https://www.youtube.com/watch?v=WXiNkZVmkD4&ab_channel=Warp
 
 ### Install Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 ** RUN suggested Path commands after
