@@ -32,6 +32,9 @@ Settings > Appearance > Click 'Prompt' configuration box > Select 'Shell prompt'
 ### Sources
 https://www.youtube.com/watch?v=WXiNkZVmkD4&ab_channel=Warp
 
+### Additional Themeing Sources
+https://starship.rs/presets/
+
 ## CLI Configuration (MacOS)
 
 ### Install Brew
