@@ -43,9 +43,16 @@ https://starship.rs/presets/
 ### Install tmux
 ![Tmux Example](./images/tmux_with_prompt_theme.png)
 
-## Dependencies
+## MacOS Configuration
 
 ### Install Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 ** RUN suggested Path commands after
+
+### Install Python
+brew install python
+
+## Useful CLI Tools
+
+htop
