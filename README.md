@@ -9,14 +9,18 @@
 https://eng.m.fontke.com/font/24637081/
 
 ### Install OhMyZSH
-'sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"'
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ### Install Warp
 brew install warp
 
 ### Install Powerlevel10k Theme
+'''
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+'''
+'''
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+'''
 
 ### Configure Powerlevel10k Theme
 p10k configure
