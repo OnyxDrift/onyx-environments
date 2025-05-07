@@ -1,6 +1,6 @@
 # Onyx-Environments
 
-## CLI Configuration (General)
+## CLI Prompt Theming
 
 ### Final Look
 ![Screenshot of terminal prompt](./images/p10k_configured_theme_example.png)
@@ -32,7 +32,12 @@ Settings > Appearance > Click 'Prompt' configuration box > Select 'Shell prompt'
 ### Sources
 https://www.youtube.com/watch?v=WXiNkZVmkD4&ab_channel=Warp
 
-## CLI Configuration (MacOS)
+## CLI Utility Modification
+
+### Install tmux
+![Tmux Example](./images/tmux_with_prompt_theme.png)
+
+## Dependencies
 
 ### Install Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
