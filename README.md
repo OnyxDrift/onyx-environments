@@ -9,7 +9,7 @@
 https://eng.m.fontke.com/font/24637081/
 
 ### Install OhMyZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+'sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"'
 
 ### Install Warp
 brew install warp
